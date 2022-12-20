@@ -261,9 +261,6 @@
   <buttonGroups>
     <group name="personType">
       <member id="52efa"/>
-      <member id="52efa"/>
-      <member id="3cff8"/>
-      <member id="84794"/>
     </group>
   </buttonGroups>
 </form>
