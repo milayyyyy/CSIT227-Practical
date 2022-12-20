@@ -258,9 +258,4 @@
       </grid>
     </children>
   </grid>
-  <buttonGroups>
-    <group name="personType">
-      <member id="52efa"/>
-    </group>
-  </buttonGroups>
 </form>
