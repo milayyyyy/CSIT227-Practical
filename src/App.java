@@ -4,21 +4,35 @@ import java.util.List;
 
 public class App {
     private JPanel pnlMain;
-    private JRadioButton customerRadioButton;
-    private JRadioButton employeeRadioButton;
-    private JRadioButton managerRadioButton;
-    private JTextField textField1;
-    private JTextArea textArea1;
-    private JButton SAVEButton;
+    private JRadioButton rbCustomer;
+    private JRadioButton rbClerk;
+    private JRadioButton rbManager;
+    private JTextField tfName;
+    private JTextArea taPersons;
+    private JButton btnSave;
+    private JTextField tfAge;
+    private JTextField tfMonths;
+    private JTextField tfSalary;
+    private JButton btnClear;
+    private JTextField tfLoad;
+    private JButton btnLoad;
+    private JButton btnSayHi;
+    private JButton btnSavePerson;
+    private JButton btnLoadPerson;
+    private JButton btnReward;
 
-    public static void main(String[] args) {
-        List<Person> personList = new ArrayList<>();
-        personList.add(new Clerk("James", 25, 7, 12500));
-        giveReward(personList, 1);
+    private List<Person> persons;
 
+    public App() {
+        persons = new ArrayList<>();
+        // TODO add implementations for all milestones here
     }
 
-    static void giveReward(List<Person> persons, int n) {
+    public static void main(String[] args) {
+        // add here how to make GUI visible
+    }
+
+    static void giveReward(int n) {
 
     }
 }
